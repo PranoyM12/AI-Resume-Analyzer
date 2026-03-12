@@ -1,4 +1,5 @@
 streamlit
+wordcloud
 pdfplumber
 scikit-learn
 sentence-transformers
