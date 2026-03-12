@@ -36,4 +36,4 @@ streamlit run app.py
 
 ## Demo
 
-![App Screenshot](assets)
+[App Screenshot](assets)
