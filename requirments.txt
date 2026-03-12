@@ -3,6 +3,5 @@ pdfplumber
 scikit-learn
 sentence-transformers
 transformers
-torch
 matplotlib
-wordcloud==1.9.3
+wordcloud
