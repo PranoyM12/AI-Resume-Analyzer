@@ -5,4 +5,4 @@ scikit-learn
 sentence-transformers
 transformers
 matplotlib
-wordcloud
+
