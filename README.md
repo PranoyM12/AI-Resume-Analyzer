@@ -2,6 +2,9 @@
 
 An AI-powered resume analysis tool that evaluates how well a resume matches a job description using NLP and semantic similarity.
 
+## Live Demo
+[https://your-app-name.streamlit.app](https://ai-resume-analyzer-iynmfgxwtvbpb6zvvstsem.streamlit.app/)
+
 ## Features
 
 - Resume parsing from PDF
