@@ -1,4 +1,4 @@
-from wordcloud import WordCloud
+#from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import streamlit as st
 import pdfplumber
@@ -147,20 +147,20 @@ if uploaded_file is not None:
         st.write("No skills detected")
 
     # Word Cloud Visualization
-    st.subheader("Resume Skill Word Cloud")
+    # st.subheader("Resume Skill Word Cloud")
 
-    from wordcloud import WordCloud
-    import matplotlib.pyplot as plt
+    # from wordcloud import WordCloud
+    # import matplotlib.pyplot as plt
 
-    text = " ".join(resume_skills)
+    # text = " ".join(resume_skills)
 
-    wordcloud = WordCloud(width=800, height=400, background_color="white").generate(text)
+    # wordcloud = WordCloud(width=800, height=400, background_color="white").generate(text)
 
-    fig, ax = plt.subplots()
-    ax.imshow(wordcloud, interpolation="bilinear")
-    ax.axis("off")
+    # fig, ax = plt.subplots()
+    # ax.imshow(wordcloud, interpolation="bilinear")
+    # ax.axis("off")
 
-    st.pyplot(fig)
+    # st.pyplot(fig)
 
 
     #Generate AI Feedback
