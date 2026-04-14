@@ -23,8 +23,8 @@ if uploaded_file is not None:
                 resume_text += text
 
 
-    resume_skills = detect_skills(resume_text)
-    job_skills = detect_skills(job_description)
+    resume_skills = list(dict.fromkeys(detect_skills(resume_text)))
+    job_skills = list(dict.fromkeys(detect_skills(job_description)))
 
     from analyzer import semantic_match
     matched_skills, missing_skills = semantic_match(resume_skills, job_skills)
